@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+require_once('vendor' . DIRECTORY_SEPARATOR . 'autoload.php');
+
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+$application->add(new \Pixplorer\Command\Test\Test1Command());
+$application->run();
