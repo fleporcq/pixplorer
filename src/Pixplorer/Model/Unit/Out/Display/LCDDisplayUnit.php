@@ -1,7 +1,8 @@
 <?php
 namespace Pixplorer\Model\Unit\Out\Display;
 
-class LCDDisplayUnit implements iDisplayUnit{
+class LCDDisplayUnit extends DisplayUnit
+{
 
     public function write($message)
     {

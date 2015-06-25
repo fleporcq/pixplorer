@@ -1,7 +1,7 @@
 <?php
 namespace Pixplorer\Model\Unit\Out\Audio;
 
-class StandardAudioUnit implements iAudioUnit
+class StandardAudioUnit extends AudioUnit
 {
     public function play($file)
     {

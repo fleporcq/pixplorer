@@ -2,7 +2,7 @@
 namespace Pixplorer\Model\Unit\Out\Display;
 
 
-class StandardDisplay implements iDisplayUnit
+class StandardDisplayUnit extends DisplayUnit
 {
 
     public function write($message)
