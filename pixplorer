@@ -6,4 +6,5 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 $application->add(new \Pixplorer\Command\Test\Interaction1Command());
+$application->add(new \Pixplorer\Command\Test\Audio1Command());
 $application->run();
